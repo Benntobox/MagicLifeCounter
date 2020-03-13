@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26A435E1241B468B003AC2FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A435E0241B468B003AC2FB /* AppDelegate.swift */; };
+		26A435E3241B468B003AC2FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A435E2241B468B003AC2FB /* SceneDelegate.swift */; };
+		26A435E5241B468B003AC2FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A435E4241B468B003AC2FB /* ContentView.swift */; };
+		26A435E7241B468C003AC2FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A435E6241B468C003AC2FB /* Assets.xcassets */; };
+		26A435EA241B468C003AC2FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A435E9241B468C003AC2FB /* Preview Assets.xcassets */; };
+		26A435ED241B468C003AC2FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A435EB241B468C003AC2FB /* LaunchScreen.storyboard */; };
+		26A435F8241B468C003AC2FB /* MagicLifeCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A435F7241B468C003AC2FB /* MagicLifeCounterTests.swift */; };
+		26A43603241B468D003AC2FB /* MagicLifeCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A43602241B468D003AC2FB /* MagicLifeCounterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26A435F4241B468C003AC2FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A435D5241B468B003AC2FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A435DC241B468B003AC2FB;
+			remoteInfo = MagicLifeCounter;
+		};
+		26A435FF241B468D003AC2FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A435D5241B468B003AC2FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A435DC241B468B003AC2FB;
+			remoteInfo = MagicLifeCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26A435DD241B468B003AC2FB /* MagicLifeCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicLifeCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A435E0241B468B003AC2FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26A435E2241B468B003AC2FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26A435E4241B468B003AC2FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26A435E6241B468C003AC2FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26A435E9241B468C003AC2FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26A435EC241B468C003AC2FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26A435EE241B468C003AC2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A435F3241B468C003AC2FB /* MagicLifeCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicLifeCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A435F7241B468C003AC2FB /* MagicLifeCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicLifeCounterTests.swift; sourceTree = "<group>"; };
+		26A435F9241B468C003AC2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A435FE241B468D003AC2FB /* MagicLifeCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicLifeCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A43602241B468D003AC2FB /* MagicLifeCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicLifeCounterUITests.swift; sourceTree = "<group>"; };
+		26A43604241B468D003AC2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A435DA241B468B003AC2FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A435F0241B468C003AC2FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A435FB241B468D003AC2FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26A435D4241B468B003AC2FB = {
+			isa = PBXGroup;
+			children = (
+				26A435DF241B468B003AC2FB /* MagicLifeCounter */,
+				26A435F6241B468C003AC2FB /* MagicLifeCounterTests */,
+				26A43601241B468D003AC2FB /* MagicLifeCounterUITests */,
+				26A435DE241B468B003AC2FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26A435DE241B468B003AC2FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A435DD241B468B003AC2FB /* MagicLifeCounter.app */,
+				26A435F3241B468C003AC2FB /* MagicLifeCounterTests.xctest */,
+				26A435FE241B468D003AC2FB /* MagicLifeCounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A435DF241B468B003AC2FB /* MagicLifeCounter */ = {
+			isa = PBXGroup;
+			children = (
+				26A435E0241B468B003AC2FB /* AppDelegate.swift */,
+				26A435E2241B468B003AC2FB /* SceneDelegate.swift */,
+				26A435E4241B468B003AC2FB /* ContentView.swift */,
+				26A435E6241B468C003AC2FB /* Assets.xcassets */,
+				26A435EB241B468C003AC2FB /* LaunchScreen.storyboard */,
+				26A435EE241B468C003AC2FB /* Info.plist */,
+				26A435E8241B468C003AC2FB /* Preview Content */,
+			);
+			path = MagicLifeCounter;
+			sourceTree = "<group>";
+		};
+		26A435E8241B468C003AC2FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26A435E9241B468C003AC2FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26A435F6241B468C003AC2FB /* MagicLifeCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				26A435F7241B468C003AC2FB /* MagicLifeCounterTests.swift */,
+				26A435F9241B468C003AC2FB /* Info.plist */,
+			);
+			path = MagicLifeCounterTests;
+			sourceTree = "<group>";
+		};
+		26A43601241B468D003AC2FB /* MagicLifeCounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26A43602241B468D003AC2FB /* MagicLifeCounterUITests.swift */,
+				26A43604241B468D003AC2FB /* Info.plist */,
+			);
+			path = MagicLifeCounterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26A435DC241B468B003AC2FB /* MagicLifeCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A43607241B468D003AC2FB /* Build configuration list for PBXNativeTarget "MagicLifeCounter" */;
+			buildPhases = (
+				26A435D9241B468B003AC2FB /* Sources */,
+				26A435DA241B468B003AC2FB /* Frameworks */,
+				26A435DB241B468B003AC2FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicLifeCounter;
+			productName = MagicLifeCounter;
+			productReference = 26A435DD241B468B003AC2FB /* MagicLifeCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26A435F2241B468C003AC2FB /* MagicLifeCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A4360A241B468D003AC2FB /* Build configuration list for PBXNativeTarget "MagicLifeCounterTests" */;
+			buildPhases = (
+				26A435EF241B468C003AC2FB /* Sources */,
+				26A435F0241B468C003AC2FB /* Frameworks */,
+				26A435F1241B468C003AC2FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26A435F5241B468C003AC2FB /* PBXTargetDependency */,
+			);
+			name = MagicLifeCounterTests;
+			productName = MagicLifeCounterTests;
+			productReference = 26A435F3241B468C003AC2FB /* MagicLifeCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26A435FD241B468D003AC2FB /* MagicLifeCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A4360D241B468D003AC2FB /* Build configuration list for PBXNativeTarget "MagicLifeCounterUITests" */;
+			buildPhases = (
+				26A435FA241B468D003AC2FB /* Sources */,
+				26A435FB241B468D003AC2FB /* Frameworks */,
+				26A435FC241B468D003AC2FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26A43600241B468D003AC2FB /* PBXTargetDependency */,
+			);
+			name = MagicLifeCounterUITests;
+			productName = MagicLifeCounterUITests;
+			productReference = 26A435FE241B468D003AC2FB /* MagicLifeCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26A435D5241B468B003AC2FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Benjamin Boyle";
+				TargetAttributes = {
+					26A435DC241B468B003AC2FB = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					26A435F2241B468C003AC2FB = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 26A435DC241B468B003AC2FB;
+					};
+					26A435FD241B468D003AC2FB = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 26A435DC241B468B003AC2FB;
+					};
+				};
+			};
+			buildConfigurationList = 26A435D8241B468B003AC2FB /* Build configuration list for PBXProject "MagicLifeCounter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26A435D4241B468B003AC2FB;
+			productRefGroup = 26A435DE241B468B003AC2FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26A435DC241B468B003AC2FB /* MagicLifeCounter */,
+				26A435F2241B468C003AC2FB /* MagicLifeCounterTests */,
+				26A435FD241B468D003AC2FB /* MagicLifeCounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A435DB241B468B003AC2FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A435ED241B468C003AC2FB /* LaunchScreen.storyboard in Resources */,
+				26A435EA241B468C003AC2FB /* Preview Assets.xcassets in Resources */,
+				26A435E7241B468C003AC2FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A435F1241B468C003AC2FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A435FC241B468D003AC2FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A435D9241B468B003AC2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A435E1241B468B003AC2FB /* AppDelegate.swift in Sources */,
+				26A435E3241B468B003AC2FB /* SceneDelegate.swift in Sources */,
+				26A435E5241B468B003AC2FB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A435EF241B468C003AC2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A435F8241B468C003AC2FB /* MagicLifeCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A435FA241B468D003AC2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A43603241B468D003AC2FB /* MagicLifeCounterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26A435F5241B468C003AC2FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26A435DC241B468B003AC2FB /* MagicLifeCounter */;
+			targetProxy = 26A435F4241B468C003AC2FB /* PBXContainerItemProxy */;
+		};
+		26A43600241B468D003AC2FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26A435DC241B468B003AC2FB /* MagicLifeCounter */;
+			targetProxy = 26A435FF241B468D003AC2FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26A435EB241B468C003AC2FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A435EC241B468C003AC2FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26A43605241B468D003AC2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26A43606241B468D003AC2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26A43608241B468D003AC2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MagicLifeCounter/Preview Content\"";
+				DEVELOPMENT_TEAM = 7DN5JNN22H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MagicLifeCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BB.MagicLifeCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26A43609241B468D003AC2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MagicLifeCounter/Preview Content\"";
+				DEVELOPMENT_TEAM = 7DN5JNN22H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MagicLifeCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BB.MagicLifeCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26A4360B241B468D003AC2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DN5JNN22H;
+				INFOPLIST_FILE = MagicLifeCounterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BB.MagicLifeCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicLifeCounter.app/MagicLifeCounter";
+			};
+			name = Debug;
+		};
+		26A4360C241B468D003AC2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DN5JNN22H;
+				INFOPLIST_FILE = MagicLifeCounterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BB.MagicLifeCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicLifeCounter.app/MagicLifeCounter";
+			};
+			name = Release;
+		};
+		26A4360E241B468D003AC2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DN5JNN22H;
+				INFOPLIST_FILE = MagicLifeCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BB.MagicLifeCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicLifeCounter;
+			};
+			name = Debug;
+		};
+		26A4360F241B468D003AC2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DN5JNN22H;
+				INFOPLIST_FILE = MagicLifeCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BB.MagicLifeCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicLifeCounter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A435D8241B468B003AC2FB /* Build configuration list for PBXProject "MagicLifeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A43605241B468D003AC2FB /* Debug */,
+				26A43606241B468D003AC2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A43607241B468D003AC2FB /* Build configuration list for PBXNativeTarget "MagicLifeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A43608241B468D003AC2FB /* Debug */,
+				26A43609241B468D003AC2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A4360A241B468D003AC2FB /* Build configuration list for PBXNativeTarget "MagicLifeCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A4360B241B468D003AC2FB /* Debug */,
+				26A4360C241B468D003AC2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A4360D241B468D003AC2FB /* Build configuration list for PBXNativeTarget "MagicLifeCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A4360E241B468D003AC2FB /* Debug */,
+				26A4360F241B468D003AC2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26A435D5241B468B003AC2FB /* Project object */;
+}
