@@ -15,6 +15,7 @@
 		26A435ED241B468C003AC2FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A435EB241B468C003AC2FB /* LaunchScreen.storyboard */; };
 		26A435F8241B468C003AC2FB /* MagicLifeCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A435F7241B468C003AC2FB /* MagicLifeCounterTests.swift */; };
 		26A43603241B468D003AC2FB /* MagicLifeCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A43602241B468D003AC2FB /* MagicLifeCounterUITests.swift */; };
+		26A43611241B46EC003AC2FB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A43610241B46EC003AC2FB /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		26A435FE241B468D003AC2FB /* MagicLifeCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicLifeCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A43602241B468D003AC2FB /* MagicLifeCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicLifeCounterUITests.swift; sourceTree = "<group>"; };
 		26A43604241B468D003AC2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A43610241B46EC003AC2FB /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				26A435E0241B468B003AC2FB /* AppDelegate.swift */,
 				26A435E2241B468B003AC2FB /* SceneDelegate.swift */,
 				26A435E4241B468B003AC2FB /* ContentView.swift */,
+				26A43610241B46EC003AC2FB /* Player.swift */,
 				26A435E6241B468C003AC2FB /* Assets.xcassets */,
 				26A435EB241B468C003AC2FB /* LaunchScreen.storyboard */,
 				26A435EE241B468C003AC2FB /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A435E1241B468B003AC2FB /* AppDelegate.swift in Sources */,
+				26A43611241B46EC003AC2FB /* Player.swift in Sources */,
 				26A435E3241B468B003AC2FB /* SceneDelegate.swift in Sources */,
 				26A435E5241B468B003AC2FB /* ContentView.swift in Sources */,
 			);
