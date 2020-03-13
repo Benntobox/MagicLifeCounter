@@ -13,14 +13,19 @@ struct Player {
     var lastModify = 0
     var isTurn = false
 
-    func AddLife(life: Int) -> Bool {
+    mutating func ModifyLife(life: Int) {
         lifeTotal += life
         lastModify = life
     }
 
-    func removeLife
+    mutating func Reset() {
+        lifeTotal = 20
+        lastModify = 0
+        isTurn = false
+    }
+
+    mutating func TurnToggle() {
+        isTurn = !isTurn
+    }
 }
-func greet(person: String) -> String {
-    let greeting = "Hello, " + person + "!"
-    return greeting
-}
+
