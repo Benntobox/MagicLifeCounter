@@ -8,23 +8,23 @@
 
 import Foundation
 
-struct Player {
+class Player {
     var lifeTotal = 20
     var lastModify = 0
     var isTurn = false
 
-    mutating func ModifyLife(life: Int) {
+    func ModifyLife(life: Int) {
         lifeTotal += life
         lastModify = life
     }
 
-    mutating func Reset() {
+    func Reset() {
         lifeTotal = 20
         lastModify = 0
         isTurn = false
     }
 
-    mutating func TurnToggle() {
+    func TurnToggle() {
         isTurn = !isTurn
     }
 }
